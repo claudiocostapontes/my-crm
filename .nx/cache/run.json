@@ -1,0 +1,87 @@
+{
+  "run": {
+    "command": "nx run-many -t start -p twenty-server twenty-front",
+    "startTime": "2026-08-14T20:23:09.172Z",
+    "endTime": "2026-08-14T20:24:05.542Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "twenty-shared:generateBarrels",
+      "target": "generateBarrels",
+      "projectName": "twenty-shared",
+      "hash": "2925926621648548384",
+      "startTime": "2026-08-14T20:23:09.201Z",
+      "endTime": "2026-08-14T20:23:12.999Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "twenty-shared:build",
+      "target": "build",
+      "projectName": "twenty-shared",
+      "hash": "1883560098515927372",
+      "startTime": "2026-08-14T20:23:14.559Z",
+      "endTime": "2026-08-14T20:23:22.180Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "twenty-client-sdk:build",
+      "target": "build",
+      "projectName": "twenty-client-sdk",
+      "hash": "17269370611197832521",
+      "startTime": "2026-08-14T20:23:23.993Z",
+      "endTime": "2026-08-14T20:23:27.122Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "twenty-shared:build:individual",
+      "target": "build:individual",
+      "projectName": "twenty-shared",
+      "hash": "784483789627064896",
+      "startTime": "2026-08-14T20:23:23.993Z",
+      "endTime": "2026-08-14T20:23:27.837Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "twenty-emails:build",
+      "target": "build",
+      "projectName": "twenty-emails",
+      "hash": "9606830560113293346",
+      "startTime": "2026-08-14T20:23:27.134Z",
+      "endTime": "2026-08-14T20:23:30.579Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "twenty-ui:build",
+      "target": "build",
+      "projectName": "twenty-ui",
+      "hash": "3178901037683011825",
+      "startTime": "2026-08-14T20:23:09.201Z",
+      "endTime": "2026-08-14T20:24:00.873Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "twenty-ui:build:individual",
+      "target": "build:individual",
+      "projectName": "twenty-ui",
+      "hash": "14645860296836934414",
+      "startTime": "2026-08-14T20:24:01.249Z",
+      "endTime": "2026-08-14T20:24:04.610Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
