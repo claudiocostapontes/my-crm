@@ -1,0 +1,2 @@
+[2m> [22mtsx -r tsconfig-paths/register scripts/remote-dom/generate-remote-dom-elements.ts
+

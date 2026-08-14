@@ -1,0 +1,17 @@
+[2m> [22mnpx vite build -c vite.config.define.ts && npx vite build -c vite.config.billing.ts && npx vite build -c vite.config.front-component.ts && npx vite build -c vite.config.logic-function.ts && npx vite build -c vite.config.utils.ts && npx rollup -c rollup.config.sdk-dts.mjs
+
+[36m
+[1msrc/sdk/define/index.ts[22m → [1mdist/define/index.d.ts[22m...[39m
+[32mcreated [1mdist/define/index.d.ts[22m in [1m2.8s[22m[39m
+[36m
+[1msrc/sdk/front-component/index.ts[22m → [1mdist/front-component/index.d.ts[22m...[39m
+[32mcreated [1mdist/front-component/index.d.ts[22m in [1m1.2s[22m[39m
+[36m
+[1msrc/sdk/billing/index.ts[22m → [1mdist/billing/index.d.ts[22m...[39m
+[32mcreated [1mdist/billing/index.d.ts[22m in [1m773ms[22m[39m
+[36m
+[1msrc/sdk/logic-function/index.ts[22m → [1mdist/logic-function/index.d.ts[22m...[39m
+[32mcreated [1mdist/logic-function/index.d.ts[22m in [1m1.2s[22m[39m
+[36m
+[1msrc/sdk/utils/index.ts[22m → [1mdist/utils/index.d.ts[22m...[39m
+[32mcreated [1mdist/utils/index.d.ts[22m in [1m1s[22m[39m

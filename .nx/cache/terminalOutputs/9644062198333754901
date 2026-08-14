@@ -1,0 +1,23 @@
+[2m> [22mnpx rimraf dist && npx vite build -c vite.config.node.ts && npx vite build -c vite.config.define.ts && npx vite build -c vite.config.billing.ts && npx vite build -c vite.config.front-component.ts && npx vite build -c vite.config.logic-function.ts && npx vite build -c vite.config.utils.ts && npx vite build -c vite.config.browser.ts
+
+[33m[plugin rolldown:vite-resolve] Module "perf_hooks" has been externalized for browser compatibility, imported by "/home/runner/work/my-crm/my-crm/node_modules/@ts-morph/common/dist/typescript.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.[39m
+[33m[plugin rolldown:vite-resolve] Module "perf_hooks" has been externalized for browser compatibility, imported by "/home/runner/work/my-crm/my-crm/node_modules/@ts-morph/common/dist/typescript.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.[39m
+[2m> [22mtsgo -p tsconfig.lib.json --declaration --emitDeclarationOnly --noEmit false --outDir dist --rootDir src && npx tsc-alias -p tsconfig.lib.json --outDir dist
+
+[2m> [22mnpx rimraf 'dist/sdk' 'dist/define/**/*.d.ts' 'dist/define/**/*.d.ts.map' 'dist/billing/**/*.d.ts' 'dist/billing/**/*.d.ts.map' 'dist/front-component/**/*.d.ts' 'dist/front-component/**/*.d.ts.map' 'dist/logic-function/**/*.d.ts' 'dist/logic-function/**/*.d.ts.map' 'dist/utils/**/*.d.ts' 'dist/utils/**/*.d.ts.map' && npx rollup -c rollup.config.sdk-dts.mjs
+
+[36m
+[1msrc/sdk/define/index.ts[22m → [1mdist/define/index.d.ts[22m...[39m
+[32mcreated [1mdist/define/index.d.ts[22m in [1m2.3s[22m[39m
+[36m
+[1msrc/sdk/front-component/index.ts[22m → [1mdist/front-component/index.d.ts[22m...[39m
+[32mcreated [1mdist/front-component/index.d.ts[22m in [1m1.2s[22m[39m
+[36m
+[1msrc/sdk/billing/index.ts[22m → [1mdist/billing/index.d.ts[22m...[39m
+[32mcreated [1mdist/billing/index.d.ts[22m in [1m766ms[22m[39m
+[36m
+[1msrc/sdk/logic-function/index.ts[22m → [1mdist/logic-function/index.d.ts[22m...[39m
+[32mcreated [1mdist/logic-function/index.d.ts[22m in [1m1.2s[22m[39m
+[36m
+[1msrc/sdk/utils/index.ts[22m → [1mdist/utils/index.d.ts[22m...[39m
+[32mcreated [1mdist/utils/index.d.ts[22m in [1m1s[22m[39m
