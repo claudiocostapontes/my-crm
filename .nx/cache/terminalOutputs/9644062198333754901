@@ -8,16 +8,16 @@
 
 [36m
 [1msrc/sdk/define/index.ts[22m → [1mdist/define/index.d.ts[22m...[39m
-[32mcreated [1mdist/define/index.d.ts[22m in [1m2.3s[22m[39m
+[32mcreated [1mdist/define/index.d.ts[22m in [1m2.4s[22m[39m
 [36m
 [1msrc/sdk/front-component/index.ts[22m → [1mdist/front-component/index.d.ts[22m...[39m
 [32mcreated [1mdist/front-component/index.d.ts[22m in [1m1.2s[22m[39m
 [36m
 [1msrc/sdk/billing/index.ts[22m → [1mdist/billing/index.d.ts[22m...[39m
-[32mcreated [1mdist/billing/index.d.ts[22m in [1m766ms[22m[39m
+[32mcreated [1mdist/billing/index.d.ts[22m in [1m783ms[22m[39m
 [36m
 [1msrc/sdk/logic-function/index.ts[22m → [1mdist/logic-function/index.d.ts[22m...[39m
-[32mcreated [1mdist/logic-function/index.d.ts[22m in [1m1.2s[22m[39m
+[32mcreated [1mdist/logic-function/index.d.ts[22m in [1m1.3s[22m[39m
 [36m
 [1msrc/sdk/utils/index.ts[22m → [1mdist/utils/index.d.ts[22m...[39m
 [32mcreated [1mdist/utils/index.d.ts[22m in [1m1s[22m[39m
